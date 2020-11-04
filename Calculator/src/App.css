@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Cal {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  column-gap: 8px;
+  row-gap: 8px;
+  grid-auto-rows: 30px;
+  margin-left: 40%;
+}
+.result {
+  height: 60px;
+  background-color: #bbb;
+  width: 225px;
+  margin-bottom: 5px;
+  margin-left: 40%;
+  border-radius: 8px;
+}
+
+.result p {
+  overflow-x: auto;
+  padding-top: 15px;
+}
